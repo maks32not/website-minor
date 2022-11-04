@@ -827,7 +827,7 @@ progress::-moz-progress-value {
     }
 
     .work__description {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     .process__title {
@@ -898,7 +898,7 @@ progress::-moz-progress-value {
     .command__book {
         padding-left: 5rem;
         padding-right: 45rem;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
 
