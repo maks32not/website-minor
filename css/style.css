@@ -646,6 +646,10 @@ progress::-moz-progress-value {
     height: 100% !important;
 }
 
+.ftpq {
+    margin-left: 0;
+}
+
 /************************Адаптив*************************/
 
 /*@media screen and (max-width: 380px) {*/
@@ -763,12 +767,32 @@ progress::-moz-progress-value {
         margin-left: 11rem;
     }
 
+    progress, progress[value] {
+        width: 60%;
+    }
+
+    .course__counter-line {
+        margin-right: 73rem;
+    }
+
+    .course__progress-minmax {
+        justify-content: normal;
+    }
+
+    .ftpq {
+        margin-left: 48rem;
+    }
+
     .course__progress {
-        display: none;
+        /*display: none;*/
     }
 
     .header__logo {
         display: none;
+    }
+
+    .course__wrap {
+        flex-direction: column;
     }
 
     .course-button__wrap {
@@ -777,7 +801,7 @@ progress::-moz-progress-value {
 
     .course {
         padding-top: 5rem;
-        padding-left: 13rem;
+        padding-left: 5rem;
     }
 
     .work {
@@ -874,7 +898,7 @@ progress::-moz-progress-value {
     .command__book {
         padding-left: 5rem;
         padding-right: 45rem;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
 
