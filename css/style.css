@@ -802,6 +802,10 @@ progress::-moz-progress-value {
         padding-left: 10rem;
     }
 
+    .work__description {
+        font-size: 2rem;
+    }
+
     .process__title {
         padding-left: 17rem;
     }
@@ -810,6 +814,7 @@ progress::-moz-progress-value {
         max-width: 80%;
         padding-left: 22rem;
         margin-bottom: 0;
+
     }
 
     .process__columns {
@@ -869,6 +874,7 @@ progress::-moz-progress-value {
     .command__book {
         padding-left: 5rem;
         padding-right: 45rem;
+        font-size: 2rem;
     }
 
 
